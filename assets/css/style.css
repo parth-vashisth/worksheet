@@ -1,0 +1,64 @@
+.tabs {
+    overflow: hidden;
+    background-color: black;
+}
+
+.tablink {
+    background-color: inherit;
+    color: orange;
+    padding: 14px 16px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tablink:hover {
+    background-color: #ddd;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.tag {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: cornflowerblue;
+    text-align: center;
+    text-decoration: none;
+}
+
+.trvl {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: olive;
+    text-decoration: none;
+}
+
+.num {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: brown;
+}

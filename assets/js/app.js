@@ -12,5 +12,5 @@ function openTab(evt, tabName) {
     }
 
     document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.style.backgroundColor = "#ccc";
+    evt.currentTarget.style.backgroundColor = "#4a047f";
 }
